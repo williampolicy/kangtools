@@ -4,7 +4,12 @@ import re
 import datetime
 import argparse
 
-def main(args):
+
+def main():
+    parser = argparse.ArgumentParser(description="This script handles versioning and git commit operations. The version number is stored in a text file, incremented, and then a new entry with the version number, a user-provided commit message, the user name, and the current timestamp is appended. These details are also used in the git commit message.")
+    parser.add_argument('-m', '--commit_message', type=str, help='Specify the commit message that will be used in both the version text file and the git commit. If not provided, the script will prompt for it.')
+    args = parser.parse_args()
+
     version_file_path = "version.txt"
 
     if args.commit_message:
@@ -37,8 +42,6 @@ def main(args):
 
     print(f"Committed Version V.0.{new_version_number}")
 
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="This script handles versioning and git commit operations. The version number is stored in a text file, incremented, and then a new entry with the version number, a user-provided commit message, the user name, and the current timestamp is appended. These details are also used in the git commit message.")
-    parser.add_argument('-m', '--commit_message', type=str, help='Specify the commit message that will be used in both the version text file and the git commit. If not provided, the script will prompt for it.')
-    args = parser.parse_args()
-    main(args)
+    main()
