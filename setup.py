@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='kangtools',  # 包的名字
-    version='0.0.13',  # 包的版本
+    version='0.0.19',  # 包的版本
     author='xiaowen kang',  # 你的名字
     author_email='kangxiaowen@gmail.com',  # 你的邮箱
     packages=['kangtools'],  # 包含的包，这是一个列表，如果你的项目包含多个包，都需要列在这里
@@ -14,7 +14,7 @@ setup(
     'console_scripts': [
         'kangtools_version_control=kangtools.version_control:main',
         'kangtools_commit_version_to_git=kangtools.commit_version_to_git:main',
-        'kangtools_upgrade_package_to_pip=upgrade_pypi_package_pip_install:main.py',
+        'kangtools_upgrade_pypi_package_pip_install=kangtools.upgrade_pypi_package_pip_install:main',
         ],
     },
 

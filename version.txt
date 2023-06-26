@@ -7,3 +7,4 @@ V.0.6 - add date and KANG  ©KANG - 2023-06-26
 V.0.7 - update kangtool_version_control  ©KANG - 2023-06-26  
 V.0.8 - test  ©KANG - 2023-06-26  
 V.0.9 - test   ©KANG - 2023-06-26  
+V.0.10 - finish kangtools_upgrade_pypi_package_pip_install kangtools   ©KANG - 2023-06-26  
