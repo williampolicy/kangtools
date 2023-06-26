@@ -4,3 +4,4 @@ V.0.3 - add help information and change the name more clear.  ©xiaowenkang . 20
 V.0.4 - update  ©KANG - 2023-06-26
 V.0.5 - test ©KANG - 2023-06-26
 V.0.6 - test help  ©KANG - 2023-06-26  
+V.0.7 - test from command line  ©KANG - 2023-06-26  
