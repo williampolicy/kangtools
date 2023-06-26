@@ -221,4 +221,16 @@ V.0.7 - good commit pip install kangtools. it works. Great! and with help  ©KAN
 -------------
 
 下面我们尝试    setup 版本的自动更新。 Try. 
+----learn from /Users/kang/1.live_wit_GPT4/code_project/demand_forcast_retail/release_pypi/clear_clean_go_upgrage
+--
+更改一个我们清晰的名字-->
+
+
+upgrade_pypi_package_pip_install
+----
+kang@Love-Grace code_process$ cat creat_blog_post_git_commit_push.py 
+#!/usr/bin/env python3
+
+这个命令很好。我们当做 将 .md 发布blog .try. 
+
 

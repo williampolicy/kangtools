@@ -15,6 +15,7 @@ setup(
         'kangtools_version_control=kangtools.version_control:main',
         'kangtools_commit_version_to_git=kangtools.commit_version_to_git:main',
         'kangtools_upgrade_pypi_package_pip_install=kangtools.upgrade_pypi_package_pip_install:main',
+        'kangtools_blog=kangtools.creat_blog_post_git_commit_push:main'
         ],
     },
 
