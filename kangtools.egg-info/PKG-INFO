@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kangtools
-Version: 0.0.4
+Version: 0.0.5
 Summary: A Python package for version control.
 Author: xiaowen kang
 Author-email: kangxiaowen@gmail.com
@@ -126,3 +126,5 @@ kangtools_version_control
 这将会运行 `version_control.py` 文件中的 `main` 函数。
 
 -----
+------
+添加了内容。- add date- kang.

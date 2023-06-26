@@ -2,7 +2,7 @@
 
 import os
 import re
-
+import datetime
 
 def main():
     version_file_path = "version.txt"
@@ -27,23 +27,23 @@ def main():
 
     # Extract version number
     version_number = int(re.search(r'\d+(?=\s|$)', version).group())
-    # version_number = int(re.search(r'\d+$', version).group())
 
     # Increment version number
     new_version_number = version_number + 1
 
+    # Get current timestamp
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d')
+
     # Update version file
     with open(version_file_path, 'a') as f:
-        # f.write(f"V.0.{new_version_number}\n")
-        f.write(f"V.0.{new_version_number} - {commit_message}\n")
+        f.write(f"V.0.{new_version_number} - {commit_message}  ©KANG - {timestamp}  \n")
 
     # Execute git commands
     os.system("git add -A")
-    os.system(f'git commit -m "V.0.{new_version_number} - {commit_message}"')
+    os.system(f'git commit -m "V.0.{new_version_number} - {commit_message}  ©KANG - {timestamp} "')
     os.system("git push")
 
     print(f"Committed Version V.0.{new_version_number}")
-
 
 if __name__ == "__main__":
     main()
