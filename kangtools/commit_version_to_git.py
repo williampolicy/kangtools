@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-# version txt , enter commit message ,
-# - in version txt: version V.0.x add commit, my name , add time 
-# - github, git up: version V.0.x add commmit, my name , add time. 
 import os
 import re
 import datetime
@@ -39,11 +36,11 @@ def main():
 
     # Update version file
     with open(version_file_path, 'a') as f:
-        f.write(f"V.0.{new_version_number} - {commit_message}  ©KANG - {timestamp}  \n")
+        f.write(f"V.0.{new_version_number} - {commit_message} ©xiaowenkang . {timestamp}\n")
 
     # Execute git commands
     os.system("git add -A")
-    os.system(f'git commit -m "V.0.{new_version_number} - {commit_message}  ©KANG - {timestamp} "')
+    os.system(f'git commit -m "V.0.{new_version_number} - {commit_message} ©xiaowenkang . {timestamp}"')
     os.system("git push")
 
     print(f"Committed Version V.0.{new_version_number}")
