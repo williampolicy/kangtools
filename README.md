@@ -119,3 +119,6 @@ kangtools_version_control
 -----
 ------
 添加了内容。- add date- kang.
+
+-----
+将version_control.py 更新为 commit_version_to_git.py  因为原命令的名称，并不清晰。 越清晰，我们越好操作。也不容易忘记。 

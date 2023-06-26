@@ -1,6 +1,7 @@
 README.md
 setup.py
 kangtools/__init__.py
+kangtools/commit_version_to_git.py
 kangtools/version_control.py
 kangtools.egg-info/PKG-INFO
 kangtools.egg-info/SOURCES.txt
