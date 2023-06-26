@@ -234,3 +234,16 @@ kang@Love-Grace code_process$ cat creat_blog_post_git_commit_push.py
 这个命令很好。我们当做 将 .md 发布blog .try. 
 
 
+- 完成了自动发布包 -blog----其实可以进步一把这个发布包-当做我们的 命令行-我可以随时可以将任何一个.md文件-发布为blog
+
+- 完成了自动版本更急新包-git
+- 完成了pypi-panckage 发布包
+
+
+
+-以上程序我用起来很好。我觉得可以将其纳入到我的kangtools库中，成为一款命令。即我随时可以通过一个命令，将.md文件发布到我的blog中。同时，增加help 语句，告知使用方法。 
+
+
+
+------完成。 
+----

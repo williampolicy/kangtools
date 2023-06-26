@@ -12,3 +12,4 @@ V.0.11 -  finish kangtools_upgrade_pypi_package_pip_install kangtools   ©KANG -
 V.0.12 - test well done.  ©KANG - 2023-06-26  
 V.0.13 - add kangblog  ©KANG - 2023-06-26  
 V.0.14 - add kangbloguploader  ©KANG - 2023-06-26  
+V.0.15 - update  ©KANG - 2023-06-26  
