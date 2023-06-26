@@ -3,3 +3,4 @@ V.0.2 - test versioin control
 V.0.3 - try twice
 V.0.4 - it works
 V.0.5 - test and know where i am 
+V.0.6 - add date and KANG  ©KANG - 2023-06-26  
