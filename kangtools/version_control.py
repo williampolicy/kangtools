@@ -3,6 +3,7 @@
 # version txt , enter commit message ,
 # - in version txt: version V.0.x add commit, my name , add time 
 # - github, git up: version V.0.x add commmit, my name , add time. 
+# 起个名字：
 import os
 import re
 import datetime
