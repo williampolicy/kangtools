@@ -1,9 +1,0 @@
-V.0.1
-V.0.2 - i get the new #!/usr/bin/env python3 ©xiaowenkang . 2023-06-26
-V.0.3 - add help information and change the name more clear.  ©xiaowenkang . 2023-06-26
-V.0.4 - update  ©KANG - 2023-06-26
-V.0.5 - test ©KANG - 2023-06-26
-V.0.6 - test help  ©KANG - 2023-06-26  
-V.0.7 - test from command line  ©KANG - 2023-06-26  
-V.0.8 - hi  ©KANG - 2023-06-26  
-V.0.9 - try  ©KANG - 2023-06-26  
